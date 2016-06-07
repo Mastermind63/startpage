@@ -5,7 +5,7 @@
 		<title>Start</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>  
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>  
 		<script> var jq_1_4_2 = jQuery.noConflict(); </script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
 	</head>
