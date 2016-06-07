@@ -1,5 +1,5 @@
 var TOTAL_PRESETS = 10;
-var TOTAL_QUOTES = 14; 
+var TOTAL_QUOTES = 19; 
 var TOTAL_GREETINGS = 10;
 
 var quotes = [ 
@@ -16,7 +16,12 @@ var quotes = [
 "If it fits, it ships.",
 "Works on my machine!",
 "640K is more memory than anyone will ever need.",
-"Yeah I pronounce it 'pasketti'. Why? Is there another way?"];
+"Yeah I pronounce it 'pasketti'. Why? Is there another way?",
+"Failure is not an option -- it comes bundled with Windows.",
+"My software never has bugs. It just develops random features.",
+"App Ruined",
+"You've got questions. We've got dancing paperclips.",
+"Any fool can use a computer. Many do."];
 var quoted = [
 "Adolf Hitler",
 "Adolf Hitler",
@@ -31,7 +36,12 @@ var quoted = [
 "USPS",
 "Anonymous",
 "Bill Gates",
-"Winston Churchill"];
+"Winston Churchill",
+"Anonymous",
+"Anonymous",
+"hbh7",
+"Microsoft",
+"Anonymous"];
 var greets = [
 "Hello!",
 "How are you today?",
