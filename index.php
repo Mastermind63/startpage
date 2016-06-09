@@ -11,6 +11,7 @@
 	</head>
 
 	<body>
+
 		<?php
 			function GetServerStatus($site, $port)
 			{
@@ -27,10 +28,10 @@
 		jq_1_4_2('#background_cycler').hide();//hide the background while the images load, ready to fade in later
 		</script>
 
-		<div class="active" style="background-image:url(backgrounds/Eva-Tree-Wallpaper-Autumn.jpg)"></div>
-		<div style="background-image:url(backgrounds/Eva-Tree-Wallpaper-Winter.jpg)"></div>
-		<div style="background-image:url(backgrounds/Eva-Tree-Wallpaper-Spring.jpg)"></div>
-		<div style="background-image:url(backgrounds/Eva-Tree-Wallpaper-Summer.jpg)"></div>
+		<div class="active" style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(backgrounds/Eva-Tree-Wallpaper-Autumn.jpg) no-repeat center center; background-position: center top; background-size: 100% 100%;"></div>
+		<div style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(backgrounds/Eva-Tree-Wallpaper-Winter.jpg) no-repeat center center; background-position: center top; background-size: 100% 100%;"></div>
+		<div style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(backgrounds/Eva-Tree-Wallpaper-Spring.jpg) no-repeat center center; background-position: center top; background-size: 100% 100%;"></div>
+		<div style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(backgrounds/Eva-Tree-Wallpaper-Summer.jpg) no-repeat center center; background-position: center top; background-size: 100% 100%;"></div>
 		</div>
 		
 		<script type="text/javascript">
@@ -66,7 +67,10 @@
 					<li><div><span><a class="plain" href="http://subsonic.hbh7.com"><strong>10.20.31.104 - Subsonic</strong></a></span><?php echo GetServerStatus('10.20.31.104',80); ?></div></li>
 					<li><div><span><a class="plain" href="https://onlyoffice.hbh7.com"><strong>10.20.31.111 - OnlyOffice</strong></a></span><?php echo GetServerStatus('10.20.31.111',80); ?></div></li>
 				</ul>
-			</div>
+				<canvas style="width:280px; padding-left: 10px;" id="fireCanvas"></canvas>
+				<img src="Logo.png" alt="Logo" style="width:280px;height:280px; padding-left: 10px; padding-top: 10px;">
+				
+		</div>
 
 		<div class="centerpiece">
 			<ul class="newBox">		
@@ -151,7 +155,7 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
 	<script src="script.js"></script>
 	
-	
+
 	</body>
 	
 	
