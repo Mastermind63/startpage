@@ -23,7 +23,8 @@ var quotes = [
 "You've got questions. We've got dancing paperclips.",
 "Any fool can use a computer. Many do.",
 "If something is free, you are the product.",
-"Bailing out, you are on your own now. Good luck."];
+"Bailing out, you are on your own now. Good luck.",
+"The secret to life is honesty and fair dealings. If you can fake that, you've got it made."];
 var quoted = [
 "Adolf Hitler",
 "Adolf Hitler",
@@ -45,7 +46,8 @@ var quoted = [
 "Microsoft",
 "Anonymous",
 "Anonymous",
-"Arch Linux"];
+"Arch Linux",
+"Grocho Marx"];
 var greets = [
 "Hello!",
 "How are you today?",
